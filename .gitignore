@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# large demo videos — kept locally, not pushed to the repo (portfolio route is currently disabled)
+/public/demos
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
