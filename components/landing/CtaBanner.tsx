@@ -31,7 +31,7 @@ export default function CtaBanner() {
         <span className="inline-block px-4 py-1.5 bg-white/10 border border-white/15 text-white/80 text-sm font-semibold rounded-full mb-6 backdrop-blur-sm">
           {t.badge}
         </span>
-        <h2 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
           {t.titleLine1}<br />{t.titleLine2}
         </h2>
         <p className="text-white/60 text-lg mb-10 max-w-xl mx-auto leading-relaxed">{t.subtitle}</p>

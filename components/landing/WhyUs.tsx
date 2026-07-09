@@ -32,7 +32,7 @@ export default function WhyUs() {
           {strengths.map((s) => (
             <div key={s.label} className="text-center p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors duration-200">
               <IconBadge icon={s.icon} variant="dark" className="mx-auto mb-3" />
-              <p className="text-4xl font-bold text-white mb-1">{s.num}</p>
+              <p className="text-3xl sm:text-4xl font-bold text-white mb-1">{s.num}</p>
               <p className="text-blue-300 font-semibold text-sm mb-1">{s.label}</p>
               <p className="text-blue-200/60 text-xs">{s.desc}</p>
             </div>
@@ -44,7 +44,7 @@ export default function WhyUs() {
           <span className="inline-block px-4 py-1.5 bg-blue-500/20 border border-blue-400/30 text-blue-300 text-sm font-semibold rounded-full mb-4">
             {t.badge}
           </span>
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">{t.title}</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">{t.title}</h2>
           <p className="text-blue-200 text-lg max-w-xl mx-auto">{t.subtitle}</p>
         </div>
 

@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import SiteBackground from "@/components/SiteBackground";
 import { LanguageProvider } from "@/lib/i18n/LanguageContext";
 import { resolveInitialLocale } from "@/lib/i18n/server";
+import { pretendard } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: "래드사이언스 | 의료 연구 소프트웨어 & 딥러닝 데이터 분석",
@@ -28,7 +29,7 @@ export default async function RootLayout({
   const lang = await resolveInitialLocale();
 
   return (
-    <html lang={lang} className="scroll-smooth">
+    <html lang={lang} className={`scroll-smooth ${pretendard.variable}`}>
       <body className="antialiased flex flex-col min-h-screen relative">
         <SiteBackground />
         <LanguageProvider initialLang={lang}>

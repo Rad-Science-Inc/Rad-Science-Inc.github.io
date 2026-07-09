@@ -67,7 +67,7 @@ export default function About({ hideHeader }: { hideHeader?: boolean }) {
                 <span className="inline-block px-4 py-1.5 bg-blue-50 text-blue-600 text-sm font-semibold rounded-full border border-blue-100 mb-6">
                   About Us
                 </span>
-                <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                   {t.titleLine1}
                   <br />
                   <span className="gradient-text">{t.titleLine2Gradient}</span>
@@ -184,7 +184,7 @@ export default function About({ hideHeader }: { hideHeader?: boolean }) {
             <p className="text-xs font-bold tracking-[0.2em] text-blue-500 uppercase mb-4">
               {t.businessAreas.sectionLabel}
             </p>
-            <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
               {t.businessAreas.title}
             </h3>
             <p className="text-gray-500 max-w-2xl">{t.businessAreas.desc}</p>
@@ -195,7 +195,7 @@ export default function About({ hideHeader }: { hideHeader?: boolean }) {
                 key={area.title}
                 className="group grid md:grid-cols-[64px_1fr_2fr] items-center gap-3 md:gap-8 py-8 border-b border-gray-100 transition-colors duration-300 hover:bg-blue-50/30 px-2 md:px-3 -mx-2 md:-mx-3 rounded-lg"
               >
-                <span className="text-3xl md:text-4xl font-bold text-gray-200 transition-colors duration-300 group-hover:text-blue-200">
+                <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-200 transition-colors duration-300 group-hover:text-blue-200">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div className="flex items-center gap-3">

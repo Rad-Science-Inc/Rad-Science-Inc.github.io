@@ -46,7 +46,7 @@ export default function Services({ hideHeader }: { hideHeader?: boolean }) {
             <span className="inline-block px-4 py-1.5 bg-blue-50 text-blue-600 text-sm font-semibold rounded-full border border-blue-100 mb-4">
               {t.badge}
             </span>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{t.title}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{t.title}</h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">{t.subtitle}</p>
           </div>
         )}
@@ -73,7 +73,7 @@ export default function Services({ hideHeader }: { hideHeader?: boolean }) {
                   <div className={`w-14 h-14 ${c.icon} rounded-2xl flex items-center justify-center text-white mb-6 shadow-lg`}>
                     <svc.icon className="w-7 h-7" strokeWidth={1.75} />
                   </div>
-                  <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">{svc.title}</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4">{svc.title}</h3>
                   <p className="text-gray-500 leading-relaxed mb-6">{svc.desc}</p>
 
                   <ul className="flex flex-col gap-3 mb-6">

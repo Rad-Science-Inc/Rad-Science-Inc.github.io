@@ -71,7 +71,7 @@ export default function Contact({ hideHeader }: { hideHeader?: boolean }) {
             <span className="inline-block px-4 py-1.5 bg-blue-50 text-blue-600 text-sm font-semibold rounded-full border border-blue-100 mb-4">
               Contact
             </span>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{t.title}</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">{t.title}</h2>
             <p className="text-gray-500 text-lg max-w-xl mx-auto">{t.subtitle}</p>
           </div>
         )}

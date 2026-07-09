@@ -51,7 +51,7 @@ export default function ServicesPreview() {
           <span className="inline-block px-4 py-1.5 bg-blue-50 text-blue-600 text-sm font-semibold rounded-full border border-blue-100 mb-4">
             Services
           </span>
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             연구의 모든 단계를 지원합니다
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">

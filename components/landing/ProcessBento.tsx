@@ -61,7 +61,7 @@ export default function ProcessBento() {
         <span className="inline-block px-4 py-1.5 bg-blue-50 text-blue-600 text-sm font-semibold rounded-full border border-blue-100 mb-6">
           {t.badge}
         </span>
-        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-5 leading-tight">{t.title}</h2>
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-5 leading-tight">{t.title}</h2>
         <p className="text-gray-500 text-lg leading-relaxed max-w-xl mx-auto">{t.subtitle}</p>
       </div>
 

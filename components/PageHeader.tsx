@@ -35,7 +35,7 @@ export default function PageHeader({ page }: PageHeaderProps) {
         <span className="inline-block px-4 py-1.5 bg-blue-500/20 border border-blue-400/30 text-blue-300 text-sm font-semibold rounded-full mb-4">
           {badge}
         </span>
-        <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">{title}</h1>
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">{title}</h1>
         <p className="text-blue-200 text-lg max-w-2xl leading-relaxed">{subtitle}</p>
       </div>
 

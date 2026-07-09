@@ -60,7 +60,7 @@ export default function Hero() {
           <span className="text-white/90 text-sm font-medium">{t.badge}</span>
         </span>
 
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight text-white max-w-4xl mb-6">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight text-white max-w-4xl mb-6">
           {t.titleLine1}<br />{t.titleLine2}
         </h1>
 
