@@ -1,7 +1,7 @@
 "use client";
 
-import { createContext, useCallback, useContext, useMemo, useState } from "react";
-import { LANGUAGE_COOKIE, type Locale } from "./constants";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { LANGUAGE_COOKIE, isLocale, type Locale } from "./constants";
 import { dictionaries } from "./dictionaries";
 
 type LanguageContextValue = {
@@ -20,6 +20,20 @@ export function LanguageProvider({
   children: React.ReactNode;
 }) {
   const [lang, setLangState] = useState<Locale>(initialLang);
+
+  // The static build always renders with FALLBACK_LOCALE (no server per-request
+  // cookie reading under GitHub Pages), so correct it client-side right after
+  // hydration from the saved cookie or the browser's language.
+  useEffect(() => {
+    const match = document.cookie.match(new RegExp(`(?:^|; )${LANGUAGE_COOKIE}=([^;]+)`));
+    const saved = match?.[1];
+    if (isLocale(saved)) {
+      setLangState(saved);
+    } else if (navigator.language.toLowerCase().includes("ko")) {
+      setLangState("ko");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const setLang = useCallback((next: Locale) => {
     setLangState(next);

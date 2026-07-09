@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 import fs from "fs";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  trailingSlash: true,
   turbopack: {
     // Resolve to the OS's canonical on-disk casing, since __dirname can pick up
     // whatever casing the process was launched with on case-insensitive Windows

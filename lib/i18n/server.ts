@@ -1,10 +1,8 @@
-import { cookies, headers } from "next/headers";
-import { FALLBACK_LOCALE, LANGUAGE_COOKIE, isLocale, type Locale } from "./constants";
+import { FALLBACK_LOCALE, type Locale } from "./constants";
 
+// Static export (GitHub Pages) has no per-request server, so cookies()/headers()
+// aren't available — every page is rendered once at build time. The real locale
+// is picked up client-side by LanguageProvider right after hydration instead.
 export async function resolveInitialLocale(): Promise<Locale> {
-  const savedLang = (await cookies()).get(LANGUAGE_COOKIE)?.value;
-  if (isLocale(savedLang)) return savedLang;
-
-  const acceptLanguage = (await headers()).get("accept-language") ?? "";
-  return acceptLanguage.toLowerCase().includes("ko") ? "ko" : FALLBACK_LOCALE;
+  return FALLBACK_LOCALE;
 }
