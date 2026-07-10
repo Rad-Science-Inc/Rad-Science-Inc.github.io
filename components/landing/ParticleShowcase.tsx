@@ -21,8 +21,8 @@ export default function ParticleShowcase() {
   return (
     <section className="relative py-24 lg:py-32 bg-linear-to-b from-[#070b18] via-[#0b1230] to-[#070b18] overflow-hidden">
       {/* ambient glow blobs for a dark spotlight backdrop */}
-      <div className="absolute -z-0 left-[10%] top-[10%] w-96 h-96 rounded-full bg-blue-600/20 blur-[120px]" />
-      <div className="absolute -z-0 right-[8%] bottom-[10%] w-96 h-96 rounded-full bg-violet-600/15 blur-[120px]" />
+      <div className="absolute z-0 left-[10%] top-[10%] w-96 h-96 rounded-full bg-blue-600/20 blur-[120px]" />
+      <div className="absolute z-0 right-[8%] bottom-[10%] w-96 h-96 rounded-full bg-violet-600/15 blur-[120px]" />
       <div
         className="absolute inset-0 opacity-[0.04]"
         style={{

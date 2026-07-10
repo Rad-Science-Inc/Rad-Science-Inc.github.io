@@ -225,7 +225,7 @@ export const dictionaries = {
       subtitle: "어떤 단계에 계시든 Rad Science가 함께 방향을 잡아드립니다",
       info: [
         { title: "이메일", value: "contact@radscience.ai.kr", sub: "영업일 기준 24시간 내 답변" },
-        { title: "전화", value: "010-5968-1673", sub: "평일 09:00 – 18:00" },
+        { title: "전화", value: " 07079544150", sub: "평일 09:00 – 18:00" },
         { title: "주소", value: "서울특별시", sub: "양천구 중앙로32길 55 306호 2A" },
       ],
       form: {
@@ -525,7 +525,7 @@ export const dictionaries = {
       subtitle: "Wherever you are in your research journey, Rad Science will help guide the way",
       info: [
         { title: "Email", value: "contact@radscience.ai.kr", sub: "We respond within 24 business hours" },
-        { title: "Phone", value: "010-5968-1673", sub: "Weekdays 09:00 – 18:00" },
+        { title: "Phone", value: " 07079544150", sub: "Weekdays 09:00 – 18:00" },
         { title: "Address", value: "Seoul", sub: "306-2A, 55, Jungang-ro 32-gil, Yangcheon-gu" },
       ],
       form: {
