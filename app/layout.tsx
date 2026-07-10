@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   keywords: "의료 소프트웨어, 딥러닝, 데이터 분석, 의료 AI, Rad Science, 래드사이언스",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
+  verification: {
+    other: { "naver-site-verification": "85947a48b92bd4d2e73d0b83ae64e6a301c3cf4f" },
+  },
   openGraph: {
     title: "Rad Science",
     description: "의료 연구 소프트웨어 & 딥러닝 데이터 분석 전문 기업",
