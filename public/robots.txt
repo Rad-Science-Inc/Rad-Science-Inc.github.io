@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://radscience.ai.kr/sitemap.xml
+
+#DaumWebMasterTool:e2b99338380b81dded9d11689bd85e1eb31558a5a338420eb89655bf6c0fa682:Th0L5+QWCCuxQG6+8IaGrw==
