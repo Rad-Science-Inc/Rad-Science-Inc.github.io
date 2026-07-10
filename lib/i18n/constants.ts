@@ -1,8 +1,10 @@
 export const LOCALES = ["ko", "en"] as const;
 export type Locale = (typeof LOCALES)[number];
 
-// Fallback used when neither a saved cookie nor Accept-Language points to Korean
-export const FALLBACK_LOCALE: Locale = "en";
+// Fallback used for the static build (no per-request server) and until the
+// client-side check in LanguageProvider corrects it. Korean since that's the
+// primary market — search engine crawlers index whatever this resolves to.
+export const FALLBACK_LOCALE: Locale = "ko";
 
 export const LANGUAGE_COOKIE = "rad_lang";
 

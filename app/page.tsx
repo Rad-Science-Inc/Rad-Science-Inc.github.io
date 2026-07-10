@@ -7,11 +7,18 @@ import WhyUs from "@/components/landing/WhyUs";
 // import PortfolioHighlights from "@/components/landing/PortfolioHighlights";
 import CtaBanner from "@/components/landing/CtaBanner";
 import { resolveInitialLocale } from "@/lib/i18n/server";
-import { getPageTitle } from "@/lib/i18n/dictionaries";
+import { dictionaries, getPageTitle } from "@/lib/i18n/dictionaries";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await resolveInitialLocale();
-  return { title: getPageTitle(locale, "/") };
+  const title = getPageTitle(locale, "/");
+  const description = dictionaries[locale].hero.subtitle;
+  return {
+    title,
+    description,
+    alternates: { canonical: "/" },
+    openGraph: { title, description, url: "/" },
+  };
 }
 
 export default function Home() {

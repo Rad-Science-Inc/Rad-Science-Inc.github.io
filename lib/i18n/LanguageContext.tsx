@@ -29,8 +29,8 @@ export function LanguageProvider({
     const saved = match?.[1];
     if (isLocale(saved)) {
       setLangState(saved);
-    } else if (navigator.language.toLowerCase().includes("ko")) {
-      setLangState("ko");
+    } else {
+      setLangState(navigator.language.toLowerCase().includes("ko") ? "ko" : "en");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
