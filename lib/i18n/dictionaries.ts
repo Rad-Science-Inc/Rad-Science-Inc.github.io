@@ -47,7 +47,7 @@ export const dictionaries = {
       ctaSecondary: "무료 상담 신청",
       scrollLabel: "SCROLL",
       stats: [
-        { num: "4+", label: "납품 기관" },
+        { num: "4+", label: "협력 기관" },
         { num: "99%", label: "고객 만족도" },
         { num: "5년+", label: "연구 경험" },
         { num: "150+", label: "(대표 및 사내이사) SCI(E) 논문" },
@@ -107,8 +107,8 @@ export const dictionaries = {
           },
           {
             year: "2026 (현재)",
-            title: "+3 심사중 논문",
-            desc: "Behavior Research Methods, Laryngoscope 저널 등 3편의 논문이 심사 중",
+            title: "국내에서 원격으로 박사 마무리 중",
+            desc: "그 외 Behavior Research Methods, Laryngoscope 저널 등 3편의 논문이 심사 중",
           },
           {
             year: "2026.07",
@@ -136,7 +136,7 @@ export const dictionaries = {
           },
           {
             title: "바이오·헬스케어",
-            desc: "의료·디지털헬스 연구를 기반으로 생명정보학, 오믹스 빅데이터 분석, 신약 후보물질 발굴을 지원합니다.",
+            desc: "의료·디지털헬스 연구를 기반으로 멀티 모달 데이터셋 분석과 바이오마커, 신약 후보물질 발굴을 지원합니다.",
           },
           {
             title: "연구지원",
@@ -146,12 +146,13 @@ export const dictionaries = {
       },
       keywordCloud: [
         "딥러닝",
-        "의료 영상 분석",
-        "바이오인포매틱스",
-        "데이터 파이프라인",
-        "임상 연구",
-        "클라우드 연구 플랫폼",
-        "기술사업화",
+        "영상 분석",
+        "오디오 분석",
+        "시계열 데이터 분석",
+        "데이터 위상 분석",
+        "설명 가능한 AI 모델 개발",
+        "모바일 연구 소프트웨어 개발",
+        "데스크톱 연구 소프트웨어 개발",
       ],
       partners: {
         sectionLabel: "Partners",
