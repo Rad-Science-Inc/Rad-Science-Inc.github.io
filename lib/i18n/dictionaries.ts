@@ -14,14 +14,14 @@ export const dictionaries = {
       home: "홈",
       about: {
         badge: "About Us",
-        title: "의료와 AI의 교차점에서",
-        subtitle: "방사선 의학과 데이터 과학의 결합에서 출발한 의료 AI 전문 법인",
+        title: "의료데이터와 컴퓨터과학의 교차점에서 새로운 가능성을 설계합니다",
+        subtitle: "의료연구와 컴퓨터과학의 결합에서 출발한 의료 데이터 연구 전문 법인",
         breadcrumb: "회사 소개",
       },
       services: {
         badge: "Services",
-        title: "전문화된 의료 AI 서비스",
-        subtitle: "의료 연구의 전 과정에서 데이터 기반 인사이트를 제공합니다",
+        title: "전문화된 의료 연구서비스",
+        subtitle: "데이터 수집과 분석을 포함한 의료 연구의 전 과정에서 데이터 기반 인사이트를 제공합니다",
         breadcrumb: "서비스",
       },
       contact: {
@@ -33,7 +33,7 @@ export const dictionaries = {
       portfolio: {
         badge: "Portfolio",
         title: "검증된 연구 성과",
-        subtitle: "국내 주요 의료기관과 함께 쌓아온 실적과 경험",
+        subtitle: "국내외 주요 의료기관과 함께 쌓아온 실적과 경험",
         breadcrumb: "포트폴리오",
       },
     },
@@ -47,19 +47,19 @@ export const dictionaries = {
       ctaSecondary: "무료 상담 신청",
       scrollLabel: "SCROLL",
       stats: [
-        { num: "50+", label: "납품 기관" },
+        { num: "4+", label: "납품 기관" },
         { num: "99%", label: "고객 만족도" },
         { num: "5년+", label: "연구 경험" },
-        { num: "15+", label: "SCI 논문" },
+        { num: "150+", label: "(대표 및 사내이사) SCI(E) 논문" },
       ],
     },
     about: {
       titleLine1: "의료와 AI의 교차점에서",
       titleLine2Gradient: "새로운 가능성을",
       paragraph1:
-        "Rad Science는 방사선 의학(Radiology)과 데이터 과학(Data Science)의 결합에서 출발한 의료 AI 전문 기업입니다.",
+        "Rad Science는 의학연구와 데이터 과학(Data Science)의 결합에서 출발한 의료 AI 전문 기업입니다.",
       paragraph2:
-        "국내 주요 대학병원 및 연구기관과의 협력을 통해 쌓은 의료 도메인 지식과 최신 딥러닝 기술을 결합하여, 연구자들이 더 빠르고 정확하게 임상적 인사이트를 얻을 수 있도록 지원합니다. 2024년 법인 전환 이후에는 이 노하우를 바탕으로 계산과학, 바이오, 기후·에너지, 국방·우주항공, 로봇·IoT 등 다양한 과학기술 분야로 연구개발 영역을 넓혀가며, 보다 체계적이고 신뢰할 수 있는 서비스 제공 체계를 갖추었습니다.",
+        "국내 주요 대학병원 및 연구기관과의 협력을 통해 쌓은 의료 도메인 지식과 최신 딥러닝 기술을 결합하여, 연구자들이 더 빠르고 정확하게 임상적 인사이트를 얻을 수 있도록 지원합니다.",
       leadership: {
         sectionLabel: "Leadership",
         ceoName: "조현진",
@@ -97,13 +97,18 @@ export const dictionaries = {
           },
           {
             year: "2025",
-            title: "ISVC 논문 발표",
+            title: "ISVC 학회 발표",
             desc: "오가노이드 데이터의 위상 기반 이미지 세그멘테이션 연구를 ISVC에서 발표",
           },
           {
             year: "2025",
             title: "신경외과 소프트웨어 프리프린트 게재",
             desc: "신경외과 소프트웨어 연구를 arXiv에 프리프린트로 게재 (Behavior Research Methods 심사 중)",
+          },
+          {
+            year: "2026 (현재)",
+            title: "+3 심사중 논문",
+            desc: "Behavior Research Methods, Laryngoscope 저널 등 3편의 논문이 심사 중",
           },
           {
             year: "2026.07",
@@ -123,7 +128,7 @@ export const dictionaries = {
       businessAreas: {
         sectionLabel: "Business Areas",
         title: "사업 영역",
-        desc: "의료 AI를 넘어 계산과학, 바이오, 기후·에너지, 국방·우주항공, 로봇·IoT까지 데이터 기반 연구개발 역량을 확장하고 있습니다.",
+        desc: "계신과학모델링 기반으로 의료 AI, 신약개발 등 다양한 연구분야로 R&D 역량을 확장하고 있습니다.",
         items: [
           {
             title: "AI·데이터 과학",
@@ -134,16 +139,8 @@ export const dictionaries = {
             desc: "의료·디지털헬스 연구를 기반으로 생명정보학, 오믹스 빅데이터 분석, 신약 후보물질 발굴을 지원합니다.",
           },
           {
-            title: "첨단 융합기술",
-            desc: "기후·해양·에너지, 국방·우주항공·재난안전, 로봇·센서·IoT 등 다양한 산업의 지능형 시스템 연구개발에 참여합니다.",
-          },
-          {
-            title: "국가 R&D·기술사업화",
-            desc: "정부지원사업과 산학연 공동연구를 수행하고, 연구성과와 지식재산권을 기술이전·라이선스·사업화로 연결합니다.",
-          },
-          {
-            title: "연구지원·교육",
-            desc: "연구용 데이터베이스 구축부터 논문 작성 지원, 전문 교육과정·연구인력 양성까지 연구 생태계를 폭넓게 지원합니다.",
+            title: "연구지원",
+            desc: "연구용 데이터베이스 구축부터 논문 작성 지원 등 연구자의 요구사항을 폭넓게 지원합니다.",
           },
         ],
       },
@@ -154,14 +151,13 @@ export const dictionaries = {
         "데이터 파이프라인",
         "임상 연구",
         "클라우드 연구 플랫폼",
-        "로봇·IoT",
         "기술사업화",
       ],
       partners: {
         sectionLabel: "Partners",
         title: "함께하는 파트너",
         items: [
-          { name: "한양대학교", logo: "/images/partners/hanyang.png" },
+          // { name: "한양대학교", logo: "/images/partners/hanyang.png" },
           { name: "아이오와 대학교", logo: "/images/partners/iowa.svg" },
           { name: "위스콘신 대학교", logo: "/images/partners/wisconsin.png" },
           { name: "매니토바 대학교", logo: "/images/partners/manitoba.svg" },
@@ -176,46 +172,47 @@ export const dictionaries = {
       items: [
         {
           title: "의료 연구 소프트웨어 공급",
-          desc: "임상 연구, 영상 분석, PACS 연동 등 의료 현장에 최적화된 소프트웨어 솔루션을 공급합니다. FDA·CE 인허가 대응 경험을 바탕으로 신뢰할 수 있는 제품을 제공합니다.",
+          desc: "행동 연구, 영상 분석등 연구자의 요구사항에 맞춘 커스텀 소프트웨어 솔루션을 공급합니다.",
           details: [
-            "PACS/DICOM 연동 및 영상 뷰어 커스터마이징",
-            "임상시험 데이터 수집·관리 시스템(EDC) 구축",
-            "FDA 510(k)·CE MDR 인허가 대응 문서화 지원",
+            "Behavioral Study 소프트웨어 개발 및 납품",
+            "3D 오가노이드 데이터 라벨링 및 분석용 커스텀 소프트웨어 개발",
+            "의료낙후지역 노인 발성장애 모니터링 앱 개발 및 배포",
           ],
-          tags: ["PACS 연동", "임상 데이터 관리", "인허가 대응"],
+          tags: ["데스크톱 소프트웨어", "모바일 앱", "웹 기반 소프트웨어"],
           color: "blue",
         },
         {
           title: "딥러닝 데이터 분석 서비스",
-          desc: "의료 영상(CT, MRI, X-ray), 유전체 데이터, EMR 등 다양한 의료 데이터에 딥러닝을 적용하여 진단 보조, 예후 예측, 패턴 분석 서비스를 제공합니다.",
+          desc: "영상, 음성오디오, 유전체 데이터, 지질체학 정형 데이터 등 다양한 의료 데이터에 딥러닝을 적용하여 진단 보조, 예후 예측, 패턴 분석 서비스를 제공합니다.",
           details: [
-            "CT·MRI·X-ray 영상 분할(Segmentation) 및 병변 검출 모델 개발",
+            "영상 분할(Segmentation)",
             "유전체·오믹스 데이터 기반 바이오마커 발굴",
-            "EMR 시계열 데이터를 활용한 예후 예측 모델링",
+            "시계열 데이터를 활용한 이벤트 디텍션 및 예후 예측 모델링",
+            "unsupervised learning 기반 패턴 분석 및 클러스터링",
           ],
-          tags: ["영상 AI 분석", "예후 예측 모델", "바이오마커 탐색"],
+          tags: ["딥러닝 분석", "예측 모델", "바이오마커 탐색"],
           color: "indigo",
         },
         {
           title: "연구 데이터 파이프라인 구축",
           desc: "연구 기관 및 병원의 데이터 수집·전처리·분석까지 전 과정의 자동화 파이프라인을 설계하고 구축합니다. 반복 연구 작업의 효율을 획기적으로 개선합니다.",
           details: [
-            "대규모 코호트 데이터 수집·정제 자동화(ETL)",
-            "클라우드 기반 연구 데이터 레이크 구축",
-            "반복 분석 워크플로우의 스케줄링·모니터링 체계화",
+            "데이터 수집 및 전처리 자동화",
+            "클라우드 기반 연구 데이터 관리 체계 구축",
+            "데이터 분석 및 시각화",
           ],
-          tags: ["데이터 전처리", "자동화 파이프라인", "대규모 코호트"],
+          tags: ["데이터 수집", "자동화 파이프라인", "데이터 분석 및 시각화"],
           color: "cyan",
         },
         {
           title: "연구 컨설팅 & 공동 연구",
-          desc: "의료 AI 연구 설계부터 논문 게재까지 전 과정을 함께합니다. 국내외 저명 학술지 게재 경험을 바탕으로 연구 방법론 및 통계 분석을 지원합니다.",
+          desc: "의료 AI 연구 설계부터 논문 작성까지 전 과정을 함께합니다. 국내외 학술지 게재 경험을 바탕으로 데이터분석 결과와 논문 작성 지원을 제공합니다.",
           details: [
             "연구 설계 및 통계 분석 방법론 자문",
-            "SCI(E)급 국제 학술지 논문 작성·투고 지원",
+            "SCI(E)급 국제 학술지 논문 작성·제출 지원",
             "산학연 공동 연구과제 기획 및 참여",
           ],
-          tags: ["연구 설계", "통계 분석", "논문 지원"],
+          tags: ["연구 설계", "데이터 분석", "논문 지원"],
           color: "violet",
         },
       ],
@@ -258,7 +255,7 @@ export const dictionaries = {
       contactTitle: "Contact",
       addressValue: "서울특별시 양천구 중앙로32길 55 306호 2A",
       copyright: "© 2026 Rad Science Inc. All rights reserved.",
-      bizReg: "사업자등록번호: 000-00-00000 | 대표: 조현진",
+      bizReg: "사업자등록번호: 332-86-03868 | 대표: 조현진",
     },
     processBento: {
       badge: "Our Process",
@@ -272,14 +269,14 @@ export const dictionaries = {
       title: "왜 Rad Science인가요?",
       subtitle: "의료 AI 프로젝트의 성패는 기술만큼 도메인 이해에 달려 있습니다",
       strengths: [
-        { num: "50+", label: "납품 기관", desc: "국내 주요 대학병원 및 연구기관" },
-        { num: "15+", label: "SCI 논문", desc: "공동 저자로 참여한 국제 저명 저널" },
-        { num: "5년+", label: "의료 AI 경험", desc: "영상·유전체·EMR 전 분야 커버" },
+        { num: "4+", label: "납품 기관", desc: "국내 주요 대학병원 및 연구기관" },
+        { num: "150+", label: "대표자, 사내이사 SCI(E) 논문", desc: "저자로 참여한 국제 저명 저널" },
+        { num: "5년+", label: "의료 AI 경험", desc: "영상, 오디오, 정형, 시계열 데이터 등" },
         { num: "99%", label: "고객 만족도", desc: "납품 후 유지보수 및 재계약률" },
       ],
       differentiators: [
         {
-          title: "의료 도메인 전문성",
+          title: "의료 도메인 연구 전문 법인",
           desc: "단순 개발사가 아닌, 의료 연구를 직접 수행한 팀이 만드는 솔루션입니다. 연구자의 언어로 소통하고 임상 현장의 맥락을 이해합니다.",
         },
         {
@@ -293,7 +290,7 @@ export const dictionaries = {
       ],
     },
     ctaBanner: {
-      badge: "첫 상담 무료",
+      badge: "상담 무료",
       titleLine1: "귀 기관의 연구에",
       titleLine2: "Rad Science가 함께합니다",
       subtitle:
@@ -347,10 +344,10 @@ export const dictionaries = {
       ctaSecondary: "Request a Free Consultation",
       scrollLabel: "SCROLL",
       stats: [
-        { num: "50+", label: "Partner Institutions" },
+        { num: "4+", label: "Partner Institutions" },
         { num: "99%", label: "Client Satisfaction" },
         { num: "5+ Yrs", label: "Research Experience" },
-        { num: "15+", label: "SCI Publications" },
+        { num: "150+", label: "SCI Publications" },
       ],
     },
     about: {
