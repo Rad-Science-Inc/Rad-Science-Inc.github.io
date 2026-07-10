@@ -21,7 +21,10 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   verification: {
     google: "h_q6xCppGlJyprLKaf8mq9oqxM-w9Qv4oKAr7dAHMqY",
-    other: { "naver-site-verification": "85947a48b92bd4d2e73d0b83ae64e6a301c3cf4f" },
+    other: {
+      "naver-site-verification": "85947a48b92bd4d2e73d0b83ae64e6a301c3cf4f",
+      "msvalidate.01": "01CFFBCBCE65D97817CC4731F1E59BA7",
+    },
   },
   openGraph: {
     title: "Rad Science",
