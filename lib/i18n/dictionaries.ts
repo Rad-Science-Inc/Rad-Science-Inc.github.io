@@ -47,7 +47,7 @@ export const dictionaries = {
       ctaSecondary: "무료 상담 신청",
       scrollLabel: "SCROLL",
       stats: [
-        { num: "4+", label: "협력 기관" },
+        { num: "5+", label: "협력 기관" },
         { num: "99%", label: "고객 만족도" },
         { num: "5년+", label: "연구 경험" },
         { num: "150+", label: "SCI(E) 논문 (대표 및 사내이사)" },
@@ -270,7 +270,7 @@ export const dictionaries = {
       title: "왜 Rad Science인가요?",
       subtitle: "의료 AI 프로젝트의 성패는 기술만큼 도메인 이해에 달려 있습니다",
       strengths: [
-        { num: "4+", label: "납품 기관", desc: "국외 대학병원 및 연구기관" },
+        { num: "5+", label: "납품 기관", desc: "국외 대학병원 및 연구기관" },
         { num: "150+", label: "SCI(E) 논문", desc: "대표 및 사내이사 저자로 참여한 논문" },
         { num: "5년+", label: "의료 AI 경험", desc: "영상, 오디오, 정형, 시계열 데이터 등" },
         { num: "99%", label: "고객 만족도", desc: "납품 후 유지보수 및 재계약률" },
@@ -345,7 +345,7 @@ export const dictionaries = {
       ctaSecondary: "Request a Free Consultation",
       scrollLabel: "SCROLL",
       stats: [
-        { num: "4+", label: "Partner Institutions" },
+        { num: "5+", label: "Partner Institutions" },
         { num: "99%", label: "Client Satisfaction" },
         { num: "5+ Yrs", label: "Research Experience" },
         { num: "150+", label: "SCI(E) Publications (CEO and  Executive Director)" },
@@ -570,7 +570,7 @@ export const dictionaries = {
       title: "Why Rad Science?",
       subtitle: "In medical AI, success depends as much on domain understanding as on technology",
       strengths: [
-        { num: "4+", label: "Partner Institutions", desc: "Leading university hospitals and research institutions nationwide" },
+        { num: "5+", label: "Partner Institutions", desc: "Leading university hospitals and research institutions nationwide" },
         { num: "15+", label: "SCI(E) Publications", desc: "Co-authored papers in internationally renowned journals featuring the CEO and executive directors as authors" },
         { num: "5+ Yrs", label: "Medical AI Experience", desc: "Covering imaging, genomics, and EMR data" },
         { num: "99%", label: "Client Satisfaction", desc: "Post-delivery maintenance and renewal rate" },
