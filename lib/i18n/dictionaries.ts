@@ -571,7 +571,7 @@ export const dictionaries = {
       subtitle: "In medical AI, success depends as much on domain understanding as on technology",
       strengths: [
         { num: "4+", label: "Partner Institutions", desc: "Leading university hospitals and research institutions nationwide" },
-        { num: "15+", label: "SCI Publications", desc: "Co-authored papers in internationally renowned journals featuring the CEO and executive directors as authors" },
+        { num: "15+", label: "SCI(E) Publications", desc: "Co-authored papers in internationally renowned journals featuring the CEO and executive directors as authors" },
         { num: "5+ Yrs", label: "Medical AI Experience", desc: "Covering imaging, genomics, and EMR data" },
         { num: "99%", label: "Client Satisfaction", desc: "Post-delivery maintenance and renewal rate" },
       ],

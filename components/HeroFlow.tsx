@@ -51,7 +51,7 @@ const stages: Stage[] = [
     step: "04",
     icon: Lightbulb,
     title: "지식 생성",
-    sub: "SCI 논문 · 임상 인사이트",
+    sub: "SCI(E) 논문 · 임상 인사이트",
     color: "from-emerald-600 to-emerald-400",
     glowRgb: "5,150,105",
     x: 340,

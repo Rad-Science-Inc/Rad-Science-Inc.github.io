@@ -23,7 +23,7 @@ const services = [
   {
     icon: Users,
     title: "연구 컨설팅 & 공동 연구",
-    desc: "AI 연구 설계부터 SCI 논문 게재까지, 연구의 전 과정을 함께하는 파트너",
+    desc: "AI 연구 설계부터 SCI(E) 논문 게재까지, 연구의 전 과정을 함께하는 파트너",
     color: "violet",
   },
 ];
